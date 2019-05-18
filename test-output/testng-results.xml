@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39999" started-at="2019-05-18T03:43:03Z" finished-at="2019-05-18T03:43:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39999" started-at="2019-05-18T03:43:03Z" finished-at="2019-05-18T03:43:43Z">
+      <class name="com.mycompany.app.HomePage">
+        <test-method status="PASS" signature="Initilize()[pri:0, instance:com.mycompany.app.HomePage@9838eb]" name="Initilize" is-config="true" duration-ms="37" started-at="2019-05-18T03:43:03Z" finished-at="2019-05-18T03:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initilize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.HomePage@9838eb]" name="basePageNavigation" duration-ms="18204" started-at="2019-05-18T03:43:04Z" data-provider="getData" finished-at="2019-05-18T03:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhanu.p@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dmfdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.HomePage@9838eb]" name="basePageNavigation" duration-ms="18627" started-at="2019-05-18T03:43:22Z" data-provider="getData" finished-at="2019-05-18T03:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhanu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[545124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.app.HomePage@9838eb]" name="teardown" is-config="true" duration-ms="3100" started-at="2019-05-18T03:43:40Z" finished-at="2019-05-18T03:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.app.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

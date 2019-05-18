@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="AppTest">
+    <classes>
+      <class name="com.mycompany.app.AppTest"/>
+      </classes>
+  </test>
+  <test name="ValidateNavBar">
+    <classes>
+      <class name="com.mycompany.app.ValidateNavBar"/>
+      </classes>
+  </test>
+  <test name="ValidateTitle">
+    <classes>
+      <class name="com.mycompany.app.ValidateTitle"/>
+      </classes>
+  </test>
+  <test name="HomePage">
+    <classes>
+      <class name="com.mycompany.app.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
