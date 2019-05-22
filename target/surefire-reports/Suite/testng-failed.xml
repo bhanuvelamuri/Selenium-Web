@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="ValidateNavBar(failed)">
+    <classes>
+      <class name="com.mycompany.app.ValidateNavBar">
+        <methods>
+          <include name="Initilize"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mycompany.app.ValidateNavBar -->
+    </classes>
+  </test> <!-- ValidateNavBar(failed) -->
   <test thread-count="5" verbose="0" name="HomePage(failed)">
     <classes>
       <class name="com.mycompany.app.HomePage">
         <methods>
-          <include name="basePageNavigation"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
           <include name="Initilize"/>
           <include name="teardown"/>
         </methods>

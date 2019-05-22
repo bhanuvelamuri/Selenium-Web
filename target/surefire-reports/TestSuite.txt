@@ -1,4 +1,33 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.924 s - in TestSuite
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 108.433 s <<< FAILURE! - in TestSuite
+Initilize(com.mycompany.app.ValidateNavBar)  Time elapsed: 7.778 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8AHTIUM', ip: '192.168.233.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.mycompany.app.ValidateNavBar.Initilize(ValidateNavBar.java:21)
+
+basePageNavigation(com.mycompany.app.HomePage)  Time elapsed: 24.023 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="http://qaclickacademy.usefedora.com/sign_in"> is not clickable at point (1324,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8AHTIUM', ip: '192.168.233.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:headless: false, moz:processID: 16248, moz:profile: C:\Users\bhanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86f92b94-95c9-4d53-b9bb-0f4a69803a60
+	at com.mycompany.app.HomePage.basePageNavigation(HomePage.java:28)
+
+basePageNavigation(com.mycompany.app.HomePage)  Time elapsed: 40.215 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="http://qaclickacademy.usefedora.com/sign_in"> is not clickable at point (1324,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8AHTIUM', ip: '192.168.233.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:headless: false, moz:processID: 17340, moz:profile: C:\Users\bhanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0513a46b-ed41-48dc-9205-f4c4f6fc574b
+	at com.mycompany.app.HomePage.basePageNavigation(HomePage.java:28)
+
