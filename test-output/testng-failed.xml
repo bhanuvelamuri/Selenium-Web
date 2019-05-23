@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mycompany.app.HomePage">
         <methods>
-          <include name="basePageNavigation"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
           <include name="Initilize"/>
           <include name="teardown"/>
         </methods>
